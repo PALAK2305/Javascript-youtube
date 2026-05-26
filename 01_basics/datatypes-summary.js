@@ -11,7 +11,7 @@ let userEmail =undefined;
 
 const id = Symbol("123")
 const anotherid = Symbol("123")
-console.log(id === anotherid);
+// console.log(id === anotherid);
 
 const bigNumber = 3456789876543333333325699434553999342n
 
@@ -31,7 +31,32 @@ let pet = {
 }
 
 const myfunction = function() {
-    console.log("Hello World!");
+    // console.log("Hello World!");
 }
 
-console.log(typeof pet);
+// console.log(typeof pet);
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack (primitive), heap (non-primitive)
+
+let myyoutube = "palakdotcom"
+
+let anothername = myyoutube
+anothername = "palak2305"
+
+console.log(myyoutube);
+console.log(anothername);
+
+let userone = {
+    email: "usergoogle.com",
+    upi: "userybl", 
+}
+
+let usertwo =  userone
+
+usertwo.email = "palak@google.com"
+
+console.log(userone.email);
+console.log(usertwo.email);
+
